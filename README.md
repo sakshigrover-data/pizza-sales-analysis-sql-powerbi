@@ -13,36 +13,71 @@ The project demonstrates practical **data analytics skills including SQL queryin
 ![Pizza Sales Dashboard](pizza_sales_dashboard.png)
 
 ---
-
 ## 🧠 SQL Analysis
 
-SQL was used to explore the dataset and answer important business questions.
+SQL was used to perform exploratory data analysis and extract business insights from the pizza sales dataset.
+The analysis was structured into **three levels: Basic, Intermediate, and Advanced analysis**, demonstrating the use of joins, aggregations, window functions, and common table expressions (CTEs).
+
+---
 
 ### Basic Analysis
 
-* Total number of orders placed
-* Total revenue generated
-* Highest priced pizza
-* Most common pizza size ordered
-* Top 5 most ordered pizzas
+Initial queries focused on understanding the overall sales performance and identifying key metrics.
+
+• Calculated the **total number of orders placed**
+• Computed the **total revenue generated from pizza sales**
+• Identified the **highest priced pizza** available on the menu
+• Determined the **most frequently ordered pizza size**
+• Retrieved the **top 5 most ordered pizza types based on quantity**
+
+These queries primarily used **joins and aggregate functions such as `COUNT()`, `SUM()`, and `GROUP BY`**.
+
+---
 
 ### Intermediate Analysis
 
-* Total quantity of pizzas ordered by category
-* Distribution of orders by hour of the day
-* Average number of pizzas ordered per day
-* Top pizzas based on revenue
+The intermediate analysis explored customer ordering patterns and product distribution.
+
+• Calculated the **total quantity of pizzas ordered by category**
+• Analyzed the **distribution of orders across different hours of the day**
+• Examined the **number of pizzas available within each category**
+• Calculated the **average number of pizzas ordered per day**
+• Identified the **top 3 pizzas generating the highest revenue**
+
+This stage involved **multi-table joins, aggregations, and subqueries** to derive deeper insights.
+
+---
 
 ### Advanced Analysis
 
-* Percentage contribution of each pizza type to total revenue
-* Cumulative revenue over time using window functions
-* Top 3 pizzas by revenue within each category using CTE and ranking
+Advanced SQL techniques were applied to perform deeper revenue analysis and ranking.
 
-SQL file used in this project:
+• Calculated the **percentage contribution of each pizza type to total revenue**
+• Analyzed **cumulative revenue growth over time using window functions**
+• Determined the **top 3 pizzas by revenue within each pizza category** using **CTE and ranking functions**
 
-```
+These queries demonstrate the use of advanced SQL concepts such as:
+
+* `WINDOW FUNCTIONS`
+* `OVER()` clause
+* `RANK()`
+* `COMMON TABLE EXPRESSIONS (CTE)`
+
+---
+
+### SQL File
+
+All queries used in this analysis can be found in the following file:
+
+```id="sqlfile01"
 pizza_sales_analysis.sql
+```
+
+
+
+
+
+
 ```
 
 ---
