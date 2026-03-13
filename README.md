@@ -10,7 +10,7 @@ The project demonstrates practical **data analytics skills including SQL queryin
 
 ## 📈 Dashboard Preview
 
-![Pizza Sales Dashboard](pizza_sales_dashboard.png)
+
 
 ---
 
